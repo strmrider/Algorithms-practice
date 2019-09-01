@@ -62,7 +62,7 @@ public class Graph {
 	boolean colorGraph(int colors) throws Exception
 	{
 		if (size == 0)
-			throw new Exception("Graph has no vertexes");
+			throw new Exception("Graph has no vertices");
 		else if (colors == 0)
 			return false;
 		
